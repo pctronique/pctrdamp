@@ -8,9 +8,9 @@
 /project/www/config/.env
 /project/www/data
 /project/www/.phpdoc
-/project/www/config/config_sgbd.php
-/project/www/config/filedotenv.php
-/project/www/config/.env
+/project/www/src/config/config_sgbd.php
+/project/www/src/config/filedotenv.php
+/project/www/src/config/.env
 /project/www/data
 /project/www/.phpdoc
 /project/www/errors.log

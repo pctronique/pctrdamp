@@ -1,24 +1,29 @@
 <?php
-include_once dirname(__FILE__) . '/src/class/signExt/FileExt.php';
-//include_once dirname(__FILE__) . '/src/class/signExt/SignFile.php';
-//include_once dirname(__FILE__) . '/src/class/signExt/SignZip.php';
+require __DIR__ . "/src/config/connexionsgbd.php";
+?>
 
-/*$hexas = [null, "0000", "0A0c", "0BC0", "0RTE", "0cd0", "001", "0A0c0D0e"];
-foreach ($hexas as $hexa) {
-    $errorHexa = (empty($hexa) || !(!empty($hexa) && ctype_xdigit($hexa)));
-    $errorOctet = !$errorHexa && (strlen($hexa)%2 == 0);
-    var_dump([$hexa, $errorHexa ? "true" : "false", $errorOctet ? "true" : "false"]);
-}*/
-
-
-try {
-    $test = new SignFile();
-    foreach ($test->getListSign() as $value) {
-        if(SignZip::isExtZip($value["ext"])) {
-            var_dump($value);
-            echo "<br/>";
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hello world!</title>
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
         }
-    }
-} catch (Error $th) {
-    echo $th;
-}
+        h1 {
+            margin: 20px 0px;
+        }
+        img {
+            width: 250px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Hello world!</h1>
+    <img src="./logo.svg" alt="logo">
+</body>
+</html>
