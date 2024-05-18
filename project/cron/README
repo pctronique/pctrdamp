@@ -1,0 +1,28 @@
+unit test
+
+error
+ConfigIni => '1001XXXXXX'
+Config => '1002XXXXXX'
+InfoEntreprise => '1003XXXXXX'
+Pass_Crypt => '1004XXXXXX'
+Connexion_PDO => '1005XXXXXX'
+SGBD_crypt => '1006XXXXXX'
+Repository => '1007XXXXXX'
+TemplateMain => '1008XXXXXX'
+AllImage => '1009XXXXXX'
+SessionUser => '1010XXXXXX'
+
+php récupérer extends file
+js querySelector forEach
+
+
+https://www.label-emmaus.co/fr/catalogue/livres-et-papeterie/?marchand=le-lien
+https://www.fnac.com/Le-Lien-Emmaus/srefC5F874F0-CC16-8444-3889-A7E3241F5C2D
+https://www.amazon.fr/s?i=merchant-items&me=A2P6Z4VOODH9I9
+
+
+https://refashion.fr/citoyen/fr/point-dapport
+https://www.lerelais.org/oudonner.php
+
+
+https://www.geeksforgeeks.org/captcha-generator-using-html-css-and-javscript/
