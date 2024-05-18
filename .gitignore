@@ -3,6 +3,12 @@
 /.env
 /projecttmp/
 /.dockertmp/
+/www/config/config_sgbd.php
+/www/config/filedotenv.php
+/www/config/.env
+/www/config/config.php
+/www/data
+/www/.phpdoc
 /project/www/config/config_sgbd.php
 /project/www/config/filedotenv.php
 /project/www/config/.env
@@ -11,11 +17,8 @@
 /project/www/src/config/config_sgbd.php
 /project/www/src/config/filedotenv.php
 /project/www/src/config/.env
-/project/www/data
-/project/www/.phpdoc
 /project/www/errors.log
 /project/www/.htaccess
-/project/www/data
 /project/www/upload
 /project/www/config/config.php
 /project/www/config/sgbd_config.php
